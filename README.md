@@ -46,4 +46,34 @@ In this Porject i make a plot of the Histogram of Oriented Gradients (HOG) featu
 8. cv2.destroyAllWindows() : This function is used to destroy all of the HighGUI windows.
 
 
+# Operation of the project :
+1. First we import the required libraries.
+2. Then we read the image using imread() function.
+3. Then we convert the image into gray scale using cvtColor() function.
+4. Then we resize the image using resize() function.
+5. Then we compute the Histogram of Oriented Gradients (HOG) feature descriptor with visualization of the HOG feature vector using hog() function.
+6. Then we display the image using imshow() function.
+7. Then we save the image using imwrite() function.
+8. Then we destroy all the windows using destroyAllWindows() function.
 
+# Output of the project :
+1. Original Image
+2. HOG feature vector
+3. HOG feature vector with visualization
+4. Resized Image
+5. Resized HOG feature vector
+6. Resized HOG feature vector with visualization
+7. Gray Scale of Image
+8. Masking of Image
+9. Bit_Masking of Image
+10. Bit_Masking of Image with visualization
+11. Image Scaling
+12. Image Scaling with visualization
+13. Image Rotation
+14. Image Rotation with visualization
+15. Image blurring
+16. Image blurring with visualization
+17. Image sharpening
+18. Image sharpening with visualization
+19. Image Edge Detection
+20. Image Edge Detection with visualization
