@@ -31,3 +31,19 @@ Image processing
 
 # #Hog
 Histogram of Oriented Gradients
+
+Information about the project :
+In this Porject i make a plot of the Histogram of Oriented Gradients (HOG) feature descriptor with visualization of the HOG feature vector, also i make a plot of the HOG feature vector for a given image.
+
+ Function used in this project :
+1. hog() : This function is used to compute the Histogram of Oriented Gradients (HOG) feature descriptor with visualization of the HOG feature vector.
+2. imread() : This function is used to read an image from the specified file.
+3. imshow() : This function is used to display an image in a window.
+4. waitKey() : This function is used to wait for a key event infinitely or for delay milliseconds, when it is positive.
+5. cvtColor() : This function is used to convert an image from one color space to another.
+6. resize() : This function is used to resize an image.
+7. cv2.imwrite() : This function is used to save an image to a specified file.
+8. cv2.destroyAllWindows() : This function is used to destroy all of the HighGUI windows.
+
+
+
