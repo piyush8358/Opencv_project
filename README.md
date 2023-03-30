@@ -32,10 +32,10 @@ Image processing
 # #Hog
 Histogram of Oriented Gradients
 
-Information about the project :
+# Information about the project :
 In this Porject i make a plot of the Histogram of Oriented Gradients (HOG) feature descriptor with visualization of the HOG feature vector, also i make a plot of the HOG feature vector for a given image.
 
- Function used in this project :
+# Function used in this project :
 1. hog() : This function is used to compute the Histogram of Oriented Gradients (HOG) feature descriptor with visualization of the HOG feature vector.
 2. imread() : This function is used to read an image from the specified file.
 3. imshow() : This function is used to display an image in a window.
