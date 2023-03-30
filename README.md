@@ -77,3 +77,13 @@ In this Porject i make a plot of the Histogram of Oriented Gradients (HOG) featu
 18. Image sharpening with visualization
 19. Image Edge Detection
 20. Image Edge Detection with visualization
+
+
+# Edge Detection
+Definition-Edge detection is a fundamental tool in image processing and computer vision, used for a wide variety of applications, such as image segmentation and object detection.
+
+# #Canny Edge Detection: 
+Definition-Canny edge detection is a multi-stage algorithm that uses a filter based on the derivative of a Gaussian in order to compute the intensity of the gradients. The Gaussian reduces the effect of noise present in the image. Then, potential edges are thinned down to 1-pixel curves by removing non-maximum pixels of the gradient magnitude. Finally, edge pixels are kept or removed using hysteresis thresholding on the gradient magnitude.
+
+# #Sobel Edge Detection:
+Definition-Sobel edge detection is a gradient-based edge detection operator that uses a multi-stage algorithm to detect a wide range of edges in images. It calculates an approximation of the gradient of the image intensity function. The Sobel operator uses a 3×3 kernel that is convolved with the original image to calculate approximations of the derivatives. The Sobel operator is based on convolving the image with a small, separable, and integer-valued filter in the horizontal and vertical directions to compute first-order derivatives. The magnitude of the gradient is then computed as the vector norm of the two derivatives. The gradient direction is then approximated by computing the arctangent of the quotient of the two derivatives.
